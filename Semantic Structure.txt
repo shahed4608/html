@@ -1,0 +1,27 @@
+Research Task:
+SEMANTIC HTML RESEARCH
+----------------------
+_-_-_-_-_-_-_-_-_-_-_-
+1.Definition:-
+Semantic HTML is the practice of using HTML tags that clearly describe the meaning and purpose of the content they contain, rather than just how the content should look. This approach makes the code more understandable for both developers and machines (like web browsers, search engines, and assistive technologies). 
+
+2.Benefits Comparison:-
+     -Accessibility: Clearly defines sections for screen readers, enabling easier navigation for users with disabilities (e.g., "This is the main navigation").
+
+     -SEO: Helps search engines understand content hierarchy (headings, articles, footers), leading to better indexing and potential rich results (ratings, prices).
+
+     -Code Quality: Creates self-documenting, readable, and maintainable code for developers, making collaboration easier.
+
+     -Performance: Can be lighter in file size and better for mobile/responsive design as browsers interpret structure more efficiently.
+3. Example Tags:
+    - Structural:
+  • <header>
+  • <nav>
+  • <main>
+  • <section>
+  • <footer>
+
+   - Text-level:
+  • <strong>
+  • <em>
+  • <mark>
