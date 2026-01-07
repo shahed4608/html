@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h2>Survey</h2>
+    <form >
+        <!--Name-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+         
+        <!--Age-->
+        <label for="age">Age:</label>
+        <select id="age" name="age" required>
+            <option value="">Select</option>
+            <option value="18-25">18-25</option>
+            <option value="26-35">26-35</option>
+            <option value="36-45">36-45</option>
+            <option value="46+">46+</option>
+        </select>
+        <br><br>
+
+        <!--Rating-->
+        <label>Rating:</label><br>
+        <input type="radio" name="rating" value="1" required> 1
+        <input type="radio" name="rating" value="2"> 2
+        <input type="radio" name="rating" value="3"> 3
+        <input type="radio" name="rating" value="4"> 4
+        <input type="radio" name="rating" value="5"> 5
+        <br><br>
+
+        <!--Comments-->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <!--Submit-->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

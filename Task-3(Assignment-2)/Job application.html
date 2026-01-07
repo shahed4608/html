@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body>
+      <h2>Job Application Form</h2>
+      <form method="post" enctype="multipart/form-data">
+
+        <!-- Personal Details -->
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+        </fieldset>
+        <br>
+
+        <!-- Resume Upload -->
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        <br><br>
+        
+        <!-- Salary Expectation -->
+        <label for="salary">Expected Salary:</label><br>
+        <input type="number" id="salary" name="salary" placeholder="Enter amount" required>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Apply">
+
+    </form>
+</body>
+</html>
